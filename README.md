@@ -3,15 +3,15 @@ Ekranda görünen kurslar ve içeriklerinin bilgisini her kursun altında buluna
 
 # Projenin Oluşturulması
 İlk olarak projeyi oluşturmak gerekiyor. Projeyi oluşturmak için aşağıdaki kod satırını kullanıyoruz.
-npx create-react-app projeadi
-npx create-react-app kurslarim.
+## npx create-react-app projeadi
+## npx create-react-app kurslarim.
 
 # Projede Database Kullanımı
 Kendi database imizi kullanacağımız için proje klasörü içinde api klasörü oluşturuyoruz. Api klasörü içinde db.json dosyası oluşturup içine datalari giriyoruz.
 
 # Projede Database İçindeki Dataların Alınması
 Projede database içinde bulunan dataları almak için axios kullanıyoruz
-npm install axios
+## npm install axios
 
 
 
