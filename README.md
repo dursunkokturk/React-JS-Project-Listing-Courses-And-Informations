@@ -1,4 +1,4 @@
-# Projede Amaç 
+# Projenin Amacı 
 Ekranda görünen kurslar ve içeriklerinin bilgisini her kursun altında bulunan sil butonu ile silme işleminden sonra ekranda görünecek yenile butonuna tıklandığında tekrar içerikleri listelemek.
 
 # Projenin Oluşturulması
