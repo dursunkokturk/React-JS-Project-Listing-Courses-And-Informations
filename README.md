@@ -9,11 +9,16 @@ Ekranda görünen kurslar ve içeriklerinin bilgisini her kursun altında buluna
 # Projede Database Kullanımı
 Kendi database imizi kullanacağımız için proje klasörü içinde api klasörü oluşturuyoruz. Api klasörü içinde db.json dosyası oluşturup içine datalari giriyoruz.
 
-# Projede Database İçindeki Dataların Alınması
-Projede database içinde bulunan dataları almak için axios kullanıyoruz
+# Projede Database'e Request Atılması ve Dataların Alınması 
+Projede database içinde bulunan dataları almak için database'e axios kullanarak request atıyoruz.
 ### npm install axios
 
+# Database'e Bağlanmak İçin Json Server kullanıyoruz. Server server'ı proje klasörünün içine entegre olacak şekilde kuruyoruz.
+### npm install -g json-server
 
+# Database'e Bağlanmak Json Server'ın Çalıştırılması.
+### json-server --watch dosyayolu/databaseadi
+### json-server --watch api/db.json
 
 
 
