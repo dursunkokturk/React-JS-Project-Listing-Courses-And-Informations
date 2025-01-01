@@ -13,7 +13,8 @@ Kendi database imizi kullanacağımız için proje klasörü içinde api klasör
 Projede database içinde bulunan dataları almak için database'e axios kullanarak request atıyoruz.
 ### npm install axios
 
-# Database'e Bağlanmak İçin Json Server kullanıyoruz. Server server'ı proje klasörünün içine entegre olacak şekilde kuruyoruz.
+# Projede Database'e Bağlanma
+Database'e bağlanmak içi Json Server kullanıyoruz. Json Server'ı proje klasörünün içine entegre olacak şekilde kuruyoruz.
 ### npm install -g json-server
 
 # Database'e Bağlanmak Json Server'ın Çalıştırılması.
