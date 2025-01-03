@@ -18,7 +18,7 @@ We use Json Server to connect to the database. We install Json Server integrated
 ### npm install -g json-server
 
 
-# Connecting to Database Running Json Server.
+# Running Json Server to Connecting to Database .
 ### json-server --watch dosyayolu/databaseadi
 ### json-server --watch api/db.json
 
@@ -45,7 +45,7 @@ Projede database içinde bulunan dataları almak için database'e axios kullanar
 Database'e bağlanmak içi Json Server kullanıyoruz. Json Server'ı proje klasörünün içine entegre olacak şekilde kuruyoruz.
 ### npm install -g json-server
 
-# Database'e Bağlanmak Json Server'ın Çalıştırılması.
+# Database'e Bağlanmak İçin Json Server'ın Çalıştırılması.
 ### json-server --watch dosyayolu/databaseadi
 ### json-server --watch api/db.json
 
