@@ -3,8 +3,8 @@ To list the information of the courses and their contents that appear on the scr
 
 # Creating the Project
 First we need to create the project. We use the following line of code to create the project.
-### npx create-react-app projeadi
-### npx create-react-app kurslarim.
+### npx create-react-app projectname
+### npx create-react-app mycourses.
 
 # Database Usage in the Project
 Since we will use our own database, we create an api folder in the project folder. We create a db.json file in the api folder and enter the data into it.
@@ -19,7 +19,7 @@ We use Json Server to connect to the database. We install Json Server integrated
 
 
 # Running Json Server to Connecting to Database .
-### json-server --watch dosyayolu/databaseadi
+### json-server --watch filepath/databasename
 ### json-server --watch api/db.json
 
 
