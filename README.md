@@ -49,6 +49,8 @@ Database'e bağlanmak içi Json Server kullanıyoruz. Json Server'ı proje klas�
 ### json-server --watch dosyayolu/databaseadi
 ### json-server --watch api/db.json
 
+# Map Method Kullanımı 
+Map method kullanılarak component içine dataları id bilgilerini üzerinden yazdırıyoruz
 
 
 # Getting Started with Create React App
