@@ -1,5 +1,33 @@
+# Purpose of the Project 
+To list the information of the courses and their contents that appear on the screen by clicking the delete button under each course and after deleting all the courses that appear on the screen, when the refresh button is clicked, all the data in the database is listed again.
+
+# Creating the Project
+First we need to create the project. We use the following line of code to create the project.
+### npx create-react-app projeadi
+### npx create-react-app kurslarim.
+
+# Database Usage in the Project
+Since we will use our own database, we create an api folder in the project folder. We create a db.json file in the api folder and enter the data into it.
+
+# Sending Request to Database and Retrieving Data in the Project 
+In the project, we send a request to the database using axios to get the data in the database.
+### npm install axios
+
+# Connecting to Database in Project
+We use Json Server to connect to the database. We install Json Server integrated into the project folder.
+### npm install -g json-server
+
+
+# Connecting to Database Running Json Server.
+### json-server --watch dosyayolu/databaseadi
+### json-server --watch api/db.json
+
+
+
+
+
 # Projenin Amacı 
-Ekranda görünen kurslar ve içeriklerinin bilgisini her kursun altında bulunan sil butonu ile silme işleminden sonra ekranda görünecek yenile butonuna tıklandığında tekrar içerikleri listelemek.
+Ekranda görünen kurslar ve içeriklerinin bilgisini her kursun altında bulunan sil butonuna tıklanarak ekranda görünen tüm kursların silinmesinden sonra yenile butonuna tıklandığında database içindeki tüm datalar tekrar listelemek.
 
 # Projenin Oluşturulması
 İlk olarak projeyi oluşturmak gerekiyor. Projeyi oluşturmak için aşağıdaki kod satırını kullanıyoruz.
